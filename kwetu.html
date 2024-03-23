@@ -1,0 +1,177 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="kwetu.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<header>
+    <div id="side" class="contain">
+        <a href="" class="close" onclick="closenav()">&times;</a>
+        <a href="reg.html">signup</a>
+        <a href="log.html">login</a>
+        <a href="">profile</a>
+      
+    </div>
+
+    <div class="navbar">
+        <div>
+            <img src="green.jpeg" >
+        </div>
+        <nav>
+            <ul>
+                <li><a href="kwetu.html">home</a></li>
+                <li><a href="aboust us.html">about</a></li>
+                <li><a href="">upcoming</a>
+                    <div class="menu1">
+                        <ul>
+                            <li><a href="">zanzibar visit</a></li>
+                            <li><a href="">mountain kilimanjaro clip</a></li>
+                            <li><a href="">manyara wild</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <span onclick="openNav()">   
+            <div></div>
+            <div></div>
+            
+            <div></div>
+            
+        </span>
+   
+    </div>
+    
+      
+   
+</header>
+<body>
+    
+
+<div class="row">
+    <div class="col">
+        <h1>wetu adventure</h1>
+        <P>EXPLORE PREMIUM ADVENTURE </P>
+        <button type="submit"><a href="">EXPLORE TRIPS</a></button>
+    </div>
+    <div class="col">
+        <a href="">
+        <div class="card card1" >
+            <h5>manyara</h5>
+            <p>click to view the wild life </p>
+        </div>
+    </a>
+    
+          <a href="">
+        <div class="card card2">
+            <a href="">
+            <h5>ngorongoro</h5>
+            <p>click to view the wild life </p>
+        </div>
+    </a>
+    <a href="">
+        <div class="card card3">
+            <a href="">
+            <h5>serengeti</h5>
+            <p>click to view the wild life</p>
+        </div>
+    </a>
+    <a href="">
+        <div class="card card4">
+            <a href="">
+            <h5>mikumi</h5>
+            <p>click to view the wild life </p>
+        </div>
+    </a>
+    </div>
+</div>
+
+
+
+    
+</body>
+<div class="tain">
+    
+<div class="travel">
+    <h1>trending destination</h1>
+</div>
+
+
+</div>
+
+<div class="this">
+    <a href="">
+<div class="box">
+    <img src="wetu/sergey-pesterev-wdMWMHXUpsc-unsplash (1).jpg" >
+    
+    <h1>TANGA <br> <span>4 days & 12 nights</span></h1>
+    
+
+</div>
+</a>
+<a href="">
+<div class="box">
+    <img src="wetu/ben-preater-uCtcE2T3jpQ-unsplash.jpg" >
+    <h1>ARUSHA <br> <span>4 days & 12 nights</span></h1>
+
+</div>
+</a>
+<a href="ngorongoro.html">
+<div class="box">
+    <img src="wetu/camping-7947056_1920.jpg" >
+    <h1>ZANZIBAR<br> <span>4 days & 12 nights</span></h1>
+</div>
+</a>
+</div>
+
+<div class="made">
+    
+<div class="show">
+    
+</div>
+</div>
+<script>
+
+
+   function openNav() {
+        document.getElementById('side').style.width = '300px';
+    }
+    function closeNav() {
+        document.getElementById('side').style.width = '0px';
+        
+        var modal = document.getElementById('ko')
+        window.onclick = function(event) {
+            if(event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    }
+    const header = document.querySelector("header");
+    window.addEventListener("scroll",function(){
+        header.classList.toggle("sticky",window.scrollY > 0);
+    })
+</script>
+
+<footer>
+<div class="bleeds">
+    <h3>usefull links</h3>
+   <a href="kwetu.html">home</a>
+   <a href="aboust us.html">about</a>
+   <a href="contact.html">contact</a>
+</div>
+<div class="bleed">
+    <h3>contact</h3>
+   <a href=""> <img src="call.png" width="27px">+255 782116215</a>
+   <a href=""><img src="whats up.jpeg" width="27px" >+255 782116215</a>
+</div>
+
+<div class="blee">
+<h3>social media</h3>
+<a href=""><img src="insta.jpeg" width="27px"></a>
+<a href=""><img src="telegram.jpeg" width="27px"></a>
+<a href=""><img src="twiter.png" width="27px"></a>
+</div>
+</footer>
+</html>
